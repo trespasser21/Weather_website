@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WeatherVista</h1>
+        <section class="main">
+            <section class="inputs">
+                <input type="text" placeholder="Enter your city name..." id="cityinput">
+                <input type="submit" value="Submit" id="add">
+                <button placeholder="submit" id="add"></button>
+            </section>
+        </section>
+
+        <section class="display"> 
+            <div class="wrapper">
+                <h2 id="cityoutput"></h2>
+                <p id="description"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+            </div>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
